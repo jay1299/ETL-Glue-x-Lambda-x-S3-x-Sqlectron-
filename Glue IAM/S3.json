@@ -8,7 +8,7 @@
                 "s3:PutObject"
             ],
             "Resource": [
-                "arn:aws:s3:::techbaar-glue*"
+                "YOUR S3 BUCKET ARN"
             ]
         }
     ]
