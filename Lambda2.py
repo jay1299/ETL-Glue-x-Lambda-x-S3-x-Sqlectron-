@@ -12,6 +12,5 @@ glueJobName = "Job1"
 
 # Define Lambda function
 def lambda_handler(event, context):
-    response=client.start_crawler(Name='TargetS3')
     response = client.start_job_run(JobName = glueJobName)
     return response
